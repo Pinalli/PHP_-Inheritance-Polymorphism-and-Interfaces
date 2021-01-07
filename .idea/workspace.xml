@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="226b427f-82a6-46ff-8e39-9e8bb41d3664" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/PHP_-Inheritance-Polymorphism-and-Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autenticacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banco.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bonificacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enderecos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/AcessoPrpriedades.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Autenticavel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Conta/ContaCorrente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Conta/ContaPoupanca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Dev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Diretor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/EditorVideo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Gerente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Autenticador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/ControladorBonificacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste-saque.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
+  <component name="ProjectId" id="1lnyxlTiLBsUXZslKj01FC7hYE0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/teste-saque.php" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alberto Pinalli\Documents\GitHub\PHP_-Inheritance-Polymorphism-and-Interfaces\src\Modelo\Funcionario" />
+      <recent name="C:\Users\Alberto Pinalli\Documents\GitHub\PHP_-Inheritance-Polymorphism-and-Interfaces" />
+      <recent name="C:\Users\Alberto Pinalli\Documents\GitHub\PHP_-Inheritance-Polymorphism-and-Interfaces\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.enderecos.php">
+    <configuration name="teste-saque.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHP_-Inheritance-Polymorphism-and-Interfaces/teste-saque.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Endereco.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/Modelo/Endereco.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="banco.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/banco.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.0" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="bonificacao.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/bonificacao.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="enderecos.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/enderecos.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="saque-teste" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/teste-saque.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.teste-saque.php" />
+      <item itemvalue="PHP Built-in Web Server.Unnamed" />
+      <item itemvalue="PHP Script.saque-teste" />
+      <item itemvalue="PHP Script.banco.php" />
+      <item itemvalue="PHP Script.bonificacao.php" />
+      <item itemvalue="PHP Script.enderecos.php" />
+      <item itemvalue="PHP Script.Endereco.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.enderecos.php" />
+        <item itemvalue="PHP Script.Endereco.php" />
+        <item itemvalue="PHP Script.bonificacao.php" />
+        <item itemvalue="JavaScript Debug.teste-saque.php" />
+        <item itemvalue="PHP Script.banco.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="226b427f-82a6-46ff-8e39-9e8bb41d3664" name="Default Changelist" comment="" />
+      <created>1608247400015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608247400015</updated>
+      <workItem from="1608247401671" duration="1409000" />
+      <workItem from="1609078014663" duration="11000" />
+      <workItem from="1609867548010" duration="14186000" />
+      <workItem from="1610044803952" duration="4571000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

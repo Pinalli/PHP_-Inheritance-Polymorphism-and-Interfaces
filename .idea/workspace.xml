@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="226b427f-82a6-46ff-8e39-9e8bb41d3664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PHP_-Inheritance-Polymorphism-and-Interfaces.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autenticacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banco.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bonificacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enderecos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/AcessoPrpriedades.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Autenticavel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Conta/ContaCorrente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Conta/ContaPoupanca.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Dev.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Diretor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/EditorVideo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelo/Funcionario/Gerente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Autenticador.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ControladorBonificacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teste-saque.php" afterDir="false" />
-    </list>
+    <list default="true" id="226b427f-82a6-46ff-8e39-9e8bb41d3664" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +98,7 @@
       <workItem from="1608247401671" duration="1409000" />
       <workItem from="1609078014663" duration="11000" />
       <workItem from="1609867548010" duration="14186000" />
-      <workItem from="1610044803952" duration="4571000" />
+      <workItem from="1610044803952" duration="4935000" />
     </task>
     <servers />
   </component>

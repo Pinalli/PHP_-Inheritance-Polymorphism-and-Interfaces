@@ -1,22 +1,17 @@
 <?php
 //https://blog.caelum.com.br/como-nao-aprender-orientacao-a-objetos-heranca/
-namespace  Pinalli\Banco\Modelo;
+namespace Modelo;
 
-/**
- * Class Pessoa
- * @package Pinalli\Banco\Modelo
- */
+use Modelo\CPF;
 
-abstract class Pessoa
+class Pessoa
 {
-    use AcessoPrpriedades;
-
     protected $nome;
     private  $cpf;
 
     public function __construct(string $nome, CPF $cpf)
     {
-        $this->validaNome($nome);
+        $this->validaNomeTitular($nome);
         $this->nome = $nome;
         $this->cpf = $cpf;
     }
@@ -31,7 +26,7 @@ abstract class Pessoa
         return $this->cpf->getNumero();
     }
 
-    final protected function validaNome(string $nomeTitular) //final não é possivel sobescrever
+    protected function validaNomeTitular(string $nomeTitular)
     {
         if (strlen($nomeTitular) < 5) {
             echo "Nome precisa ter pelo menos 5 caracteres";

@@ -1,11 +1,8 @@
 <?php
 
-namespace  Pinalli\Banco\Modelo;
-/**
- * Class CPF
- * @package Pinalli\Banco\Modelo
- */
-final class CPF  //final = classe não pode ser extendida
+namespace Pinalli\Banco\Modelo;
+
+class CPF 
 {
     private $numero;
 

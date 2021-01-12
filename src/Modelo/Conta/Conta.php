@@ -1,13 +1,13 @@
 <?php
-namespace  Pinalli\Banco\Modelo\Conta;
+namespace Pinalli\Banco\Modelo\Conta;
 
 //https://intelephense.com/Pessoa;
 
-abstract class Conta
+class Conta
 {
 
     private $titular;
-    protected $saldo;
+    private $saldo;
     private static $numeroDeContas = 0;
 
     public function __construct(Titular $titular)
@@ -25,16 +25,16 @@ abstract class Conta
 
     public function sacar(float $valorASacar): void
     {
-        $tarifaSaque = $valorASacar * $this->percentualTarifa();
+        $tarifaSaque = $valorASacar * 0.05;
         $valorSaque = $valorASacar + $tarifaSaque;
-        if ($valorSaque > $this->saldo) {
+        
+        if ($valorASacar > $this->saldo) {
             echo "Saldo indisponível";
             return;
         }
 
-        $this->saldo -= $valorSaque;
+        $this->saldo -= $valorASacar;
     }
-
 
     public function depositar(float $valorADepositar): void
     {
@@ -57,26 +57,23 @@ abstract class Conta
         $contaDestino->depositar($valorATransferir);
     }
 
-    public function getSaldo(): float
+    public function recuperaSaldo(): float
     {
         return $this->saldo;
     }
 
-    public function getNomeTitular(): string
+    public function recuperaNomeTitular(): string
     {
         return $this->titular->getNome();
     }
 
-    public function getCpfTitular(): string
+    public function recuperaCpfTitular(): string
     {
         return $this->titular->getCpf();
     }
 
-    public static function getNumeroDeContas(): int
+    public static function recuperaNumeroDeContas(): int
     {
         return self::$numeroDeContas;
     }
-
-    abstract protected function percentualTarifa(): float;
-
 }
